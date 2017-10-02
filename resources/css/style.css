@@ -75,5 +75,48 @@ header {
   top: 10rem;
   left: 2rem;
 }
-
 /* END Header */
+
+/* Main part */
+
+/* Symbols part */
+
+.symbols {
+  display: flex;
+  justify-content: center;
+}
+
+.symbol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.paper img {
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.ruler img {
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.truck img {
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+/* END Symbols */
+
+/* TEXT */
+
+
+
+/* END TEXT */
+
+/* END Main part */
