@@ -152,7 +152,18 @@ header {
 /* END Main part */
 
 /* Footer */
+footer .container {
+  display: flex;
+  background-color: azure;
+}
 
+footer img {
+  height: 1rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
 
-
+footer span {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 /* END Footer */
