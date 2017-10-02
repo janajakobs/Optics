@@ -114,9 +114,45 @@ header {
 /* END Symbols */
 
 /* TEXT */
+.container .text {
+  display: flex;
+  justify-content: center;
+}
 
+.philo {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
 
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
 
+.text h3 {
+  width: 10rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.text p {
+  margin-top: 1rem;
+  line-height: 1.4rem;
+}
 /* END TEXT */
 
 /* END Main part */
+
+/* Footer */
+
+
+
+/* END Footer */
