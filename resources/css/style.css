@@ -220,7 +220,7 @@ footer span {
   header {
     background-size: contain;
     height: 13rem;
-
+    margin-bottom: 3.77rem;
   }
 
   .heading {
@@ -238,44 +238,64 @@ footer span {
     align-items: center;
   }
 
+
   .symbols {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
     align-items: center;
-    text-align: center;
   }
 
   .symbol {
-    margin: 1rem;
-    font-size: 0.77rem;
-    width: 5rem;
-    height: 8rem;
+    justify-content: center;
+    margin: 0.5rem;
   }
 
-  .paper img {
-    margin-top: 3.77rem;
-  }
-
-  .ruler {
-    margin-top: 1.54rem;
-    
-  }
-
-  .ruler span {
-    margin-top: 1.54rem;
+  .ruler img {
+    margin-bottom: 1rem;
   }
 
   .truck img {
-    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
   .container .text {
     flex-direction: column;
-    width: 100%;
     justify-content: space-around;
     margin-top: 3.77rem;
   }
 
+  .text {
+    font-size: 0.77rem;
+  }
+
+  .philo {
+    width: 100%;
+  }
+
+  .app {
+    width: 100%;
+  }
+
+  .text h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text p {
+    padding-bottom: 0;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer img {
+    height: 2rem;
+    justify-content: space-around;
+  }
+/*
+
+
+ */
 }
