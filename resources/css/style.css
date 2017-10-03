@@ -225,14 +225,13 @@ footer span {
 
   .heading {
     display: block;
-    width: 100%;
+    text-align: center;
   }
 
   .heading h1 {
     font-size: 1rem;
     padding: 1rem 5rem;
     top: 7rem;
-    width: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -263,6 +262,7 @@ footer span {
     flex-direction: column;
     justify-content: space-around;
     margin-top: 3.77rem;
+    width: inherit;
   }
 
   .text {
@@ -270,16 +270,16 @@ footer span {
   }
 
   .philo {
-    width: 100%;
+    width: inherit;
   }
 
   .app {
-    width: 100%;
+    width: inherit;
   }
 
   .text h3 {
-    width: 100%;
     text-align: center;
+    width: inherit;
   }
 
   .text p {
@@ -292,10 +292,7 @@ footer span {
 
   footer img {
     height: 2rem;
-    justify-content: space-around;
+    justify-content: center;
   }
-/*
 
-
- */
 }
