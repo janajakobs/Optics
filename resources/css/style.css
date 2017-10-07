@@ -211,6 +211,7 @@ footer span {
 /* for PHONES */
 @media only screen and (max-width: 480px) {
   .head .container {
+      display: flex;
       max-width: 100%;
   }
 
@@ -229,10 +230,11 @@ footer span {
   .heading {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .heading h1 {
-    displaY: block;
+    display: flex;
     width: 100%;
     font-size: 1rem;
     padding: 1rem 5rem;
@@ -245,6 +247,7 @@ footer span {
 
   .symbols {
     display: flex;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -264,22 +267,27 @@ footer span {
   }
 
   .container .text {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 3.77rem;
     width: inherit;
+    display: 100%
   }
 
   .text {
+    display: flex;
     font-size: 0.77rem;
   }
 
   .philo {
-    width: inherit;
+    display: flex;
+    width: 100%;
   }
 
   .app {
-    width: inherit;
+    display: flex;
+    width: 100%;
   }
 
   .text h3 {
