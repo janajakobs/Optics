@@ -67,7 +67,7 @@ header {
 
 .heading {
   display: flex;
-  justify-content: flex-end;
+
 }
 
 .heading h1 {
@@ -194,7 +194,8 @@ footer span {
 
   header {
     height: 22rem;
-    background-size: contain;
+    background-size: cover;
+    background-position: 20%;
   }
 
   .heading h1 {
@@ -218,17 +219,21 @@ footer span {
   }
 
   header {
-    background-size: contain;
+    width: 100%;
+    background-size: cover;
+    background-position: 20%;
     height: 13rem;
     margin-bottom: 3.77rem;
   }
 
   .heading {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .heading h1 {
+    displaY: block;
+    width: 100%;
     font-size: 1rem;
     padding: 1rem 5rem;
     top: 7rem;
