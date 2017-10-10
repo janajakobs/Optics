@@ -209,103 +209,120 @@ footer span {
 
 
 /* for PHONES */
+
 @media only screen and (max-width: 480px) {
-  .head .container {
-      display: flex;
-      max-width: 100%;
+  .container {
+    display: flex;
+    max-width: 100%;
   }
 
   .logo span {
     display: none;
-  }
+ }
+
+ .head .container {
+   display: flex;
+   width: 100%;
+ }
 
   header {
     width: 100%;
+    height: 13rem;
     background-size: cover;
     background-position: 20%;
-    height: 13rem;
     margin-bottom: 3.77rem;
+    border: 0.2rem solid blue;
   }
 
   .heading {
     display: flex;
-    justify-content: center;
     width: 100%;
   }
 
   .heading h1 {
     display: flex;
-    width: 100%;
     font-size: 1rem;
-    padding: 1rem 5rem;
-    top: 7rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    line-height: 1.2;
+    padding: 1rem inherit;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    top: 10rem;
+    border: 0.2rem solid red;
   }
-
 
   .symbols {
     display: flex;
     width: 100%;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-  }
+    background-size: cover;
+    border: 0.2rem solid red;
+}
 
-  .symbol {
-    justify-content: center;
-    margin: 0.5rem;
-  }
+.symbol {
+  justify-content: center;
+  margin: 0.5rem;
+}
 
-  .ruler img {
-    margin-bottom: 1rem;
-  }
+.ruler img {
+  margin-bottom: 1rem;
+}
 
-  .truck img {
-    margin-bottom: 1rem;
-  }
+.truck img {
+  margin-bottom: 1rem;
+}
 
-  .container .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 3.77rem;
-    width: inherit;
-    display: 100%
-  }
+.container .text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 0.2rem solid green;
+}
 
-  .text {
-    display: flex;
-    font-size: 0.77rem;
-  }
 
-  .philo {
-    display: flex;
-    width: 100%;
-  }
+.text {
+  display: flex;
+  font-size: 0.77rem;
+  width: 100%;
+}
 
-  .app {
-    display: flex;
-    width: 100%;
-  }
+.philo {
+  display: flex;
+  width: 100%;
+  border: 0.2rem solid orange;
+}
 
-  .text h3 {
-    text-align: center;
-    width: inherit;
-  }
+.app {
+  display: flex;
+  width: 100%;
+  background-size: cover;
+}
 
-  .text p {
-    padding-bottom: 0;
-  }
+.text h3 {
+  text-align: center;
+  width: auto;
+}
 
-  footer span {
-    display: none;
-  }
+.text p {
+  padding-bottom: 0;
+}
 
-  footer img {
-    height: 2rem;
-    justify-content: center;
-  }
+footer {
+  display: flex;
+  width: 100%;
+  background-size: cover;
+  border: 0.2rem solid orange;
+}
+
+footer span {
+  display: none;
+}
+
+footer img {
+  height: 2rem;
+  justify-content: center;
+}
 
 }
