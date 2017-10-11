@@ -67,11 +67,10 @@ header {
 
 .heading {
   display: flex;
-
+  justify-content: flex-end;
 }
 
 .heading h1 {
-  display: inline-flex;
   background-color: white;
   font-weight: bold;
   font-size: 2rem;
@@ -81,6 +80,7 @@ header {
   top: 10rem;
   left: 2rem;
 }
+
 /* END Header */
 
 /* Main part */
@@ -226,12 +226,10 @@ footer span {
  }
 
   header {
-    width: 100%;
+    width: inherit;
     height: 13rem;
     background-size: cover;
     background-position: 20%;
-    margin-bottom: 3.77rem;
-    border: 0.2rem solid blue;
   }
 
   .heading {
@@ -240,15 +238,13 @@ footer span {
   }
 
   .heading h1 {
-    display: flex;
+    width: inherit;
+    padding: 0.75rem;
     font-size: 1rem;
-    line-height: 1.2;
-    padding: 1rem inherit;
-    background-size: cover;
     position: relative;
-    width: 100%;
-    top: 10rem;
-    border: 0.2rem solid red;
+    top: 7rem;
+    text-align: center;
+    opacity: 0.9;
   }
 
   .symbols {
@@ -258,7 +254,7 @@ footer span {
     justify-content: center;
     align-items: center;
     background-size: cover;
-    border: 0.2rem solid red;
+    margin-top: 1rem;
 }
 
 .symbol {
@@ -278,7 +274,6 @@ footer span {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 0.2rem solid green;
 }
 
 
@@ -291,7 +286,6 @@ footer span {
 .philo {
   display: flex;
   width: 100%;
-  border: 0.2rem solid orange;
 }
 
 .app {
@@ -307,13 +301,15 @@ footer span {
 
 .text p {
   padding-bottom: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 footer {
   display: flex;
-  width: 100%;
-  background-size: cover;
-  border: 0.2rem solid orange;
+  width: inherit;
+  background-color: azure;
+  justify-content: center;
 }
 
 footer span {
@@ -321,8 +317,9 @@ footer span {
 }
 
 footer img {
+  display: flex;
   height: 2rem;
-  justify-content: center;
+  padding-right: 4rem;
 }
 
 }
